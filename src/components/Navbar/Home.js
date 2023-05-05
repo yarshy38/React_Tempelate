@@ -9,12 +9,14 @@ const Menu = () => {
         <>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">React_Temp</Navbar.Brand>
+                    <Navbar.Brand to="/">React_Temp</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav className="mx-auto">
+                            <Nav.Link to="/">Home</Nav.Link>
+                            <Nav.Link to="/service">Service</Nav.Link>
+                            <Nav.Link to="/about">About</Nav.Link>
+                            <Nav.Link to="/contact">Contact</Nav.Link>
 
                         </Nav>
                     </Navbar.Collapse>
