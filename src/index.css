@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro&display=swap');
 
+:root {
+  --color-heading: #A8A2EA;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +13,43 @@
   font-family: 'Raleway';
 }
 
+.App {
+  background: #a64d490d;
+}
+
 .for-logo {
   height: 80px !important;
   width: auto !important;
+}
+
+.section_height {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tile-h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.hero_img {
+  transition: all 0.5s alternate;
+  animation: example 2s infinite alternate;
+}
+
+@keyframes example {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+.span-text {
+  color: #F9C651;
 }
