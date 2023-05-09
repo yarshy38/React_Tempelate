@@ -13,7 +13,7 @@ const Home = () => {
                                 </div>
                                 <div className='col-lg-4 mt-5'>
                                     <h2 className='tile-h2'> Welcome To <span className='span-text'>React Template</span></h2>
-
+                                    <p className='lead text-muted'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
                                 </div>
                             </div>
 
