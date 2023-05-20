@@ -53,3 +53,12 @@
 .span-text {
   color: #F9C651;
 }
+
+.navlink {
+  text-decoration: none;
+  color: black;
+}
+
+.card-img-top {
+  height: 200px !important;
+}

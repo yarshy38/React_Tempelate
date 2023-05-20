@@ -12,8 +12,9 @@ const Home = () => {
                                     <img src='./assets/img/heroSection.png' alt='hero' className='img-fluid' />
                                 </div>
                                 <div className='col-lg-4 mt-5'>
-                                    <h2 className='tile-h2'> Welcome To <span className='span-text'>React Template</span></h2>
-                                    <p className='lead text-muted'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+                                    <h2 className='tile-h2 fs-2'> Welcome To <span className='span-text'>React Template</span></h2>
+                                    <p className='fs-6 text-muted'>We Are The Team Of Talented Website Designer </p>
+                                    <button className='btn btn-warning text-center text-white btn-lg'>With Us</button>
                                 </div>
                             </div>
 
