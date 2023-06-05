@@ -23,6 +23,7 @@ const Menu = () => {
                                         <NavLink className="mx-2 navlink" to="/service">Service</NavLink>
                                         <NavLink className="mx-2 navlink" to="/about">About</NavLink>
                                         <NavLink className="mx-2 navlink" to="/contact">Contact</NavLink>
+                                        <NavLink className="mx-2 navlink" to="/product">Product</NavLink>
 
                                     </Nav>
                                 </Navbar.Collapse>
