@@ -1,68 +1,68 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro&display=swap');
 
-/* :root {
-  --color-heading: #A8A2EA;
-}
+ :root {
+   --color-heading: #A8A2EA;
+ }
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Raleway';
-}
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Raleway';
+ }
 
-.App {
-  background: #a64d490d;
-}
+ .App {
+   background: #a64d490d;
+ }
 
-.for-logo {
-  height: 80px !important;
-  width: auto !important;
-}
+ .for-logo {
+   height: 80px !important;
+   width: auto !important;
+ }
 
-.section_height {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+ .section_height {
+   height: 80vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
 
-.tile-h2 {
-  font-size: 45px;
-  font-weight: 700;
-  color: var(--color-heading);
-}
+ .tile-h2 {
+   font-size: 45px;
+   font-weight: 700;
+   color: var(--color-heading);
+ }
 
-.hero_img {
-  transition: all 0.5s alternate;
-  animation: example 2s infinite alternate;
-}
+ .hero_img {
+   transition: all 0.5s alternate;
+   animation: example 2s infinite alternate;
+ }
 
-@keyframes example {
-  from {
-    transform: translateY(-10px);
-  }
+ @keyframes example {
+   from {
+     transform: translateY(-10px);
+   }
 
-  to {
-    transform: translateY(-20px);
-  }
-}
+   to {
+     transform: translateY(-20px);
+   }
+ }
 
-.span-text {
-  color: #F9C651;
-}
+ .span-text {
+   color: #F9C651;
+ }
 
-.navlink {
-  text-decoration: none;
-  color: black;
-}
+ .navlink {
+   text-decoration: none;
+   color: black;
+ }
 
-.card-img-top {
-  height: 200px !important;
-}
+ .card-img-top {
+   height: 200px !important;
+ }
 
-.card {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-} */
+ .card {
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }

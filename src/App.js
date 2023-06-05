@@ -8,7 +8,7 @@ import Home from './components/Home/Home';
 import Service from './components/Service/Service'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
-import Product from './components/Contact/Product';
+
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Route path="/service" element={<Service />} />
 
             <Route path="/about" element={<About />} />
-            <Route path="/product" element={<Product />} />
+
           </Routes>
         </div>
       </BrowserRouter>
